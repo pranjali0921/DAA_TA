@@ -2,31 +2,48 @@
 ## Path in Matrix
 ### Problem Statement
 Step1: Create a 10x10 matrix
+<br/>
 Step2: Populate the matrix with random numbers between -25 to +25
+<br/>
 Step3: Select two arbitrary locations from the matrix which are minimum FIVE rows apart.
+<br/>
 Step4: Find the path between two locations: such that the path does not use “Diagonal”
 elements. The sum of numbers present on the path between two cells should
+<br/>
 a) Maximum
+<br/>
 b) Minimum
+<br/>
 The solution should be designed, with an approach to avoid using each and every
 element of the matrix in computation.
 
 ### Procedure
 With the help of Breadth First Search Algorithm we initiated the implementation.
-The main function consists of an array of size nxn where n=10 , generating random numbers for the array 'a' using rand() function
+<br/>
+The main function consists of an array of size nxn where n=10 , generating random numbers for the array 'a' using rand() function.
+<br/>
 Initially we are maintaining a visited array in which all the elements of the array are initialized to 0 and after visiting a vertex in the original matrix the value of same position in the visited  array is changed to 1.
+<br/>
 More two vectors are being maintained namely “vmax“ and “vmin”,these two are globally initialized and are saving the vertex which is visited and is contributing to the path. 
+<br/>
 A recursive function BFS has been called which updates the sum accordingly consisting of nested if conditions to update the value of sum. 
+<br/>
 Backtracking algorithm is used to solve this problem statement.
+<br/>
 Lastly, printing our final result using the auto function by traversing the vmin and vmax array.
+<br/>
 Time Complexity: n*O(2^n)
 
 ### Test Cases:
 Case 01-
 (0,0) to (4,4)
+<br/>
 Output 01:
+<br/>
 Initial value of x is:0
+<br/>
 Initial value of y is:0
+<br/>
 Final value of x is:4
 Final value of y is:4
 Maximum value: 155
