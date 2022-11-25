@@ -45,20 +45,34 @@ Initial value of x is:0
 Initial value of y is:0
 <br/>
 Final value of x is:4
+<br/>
 Final value of y is:4
+<br/>
 Maximum value: 155
+<br/>
 The path is as follows: 16 -> -9 -> 19 -> 7 -> 12 -> 19 -> 0 -> 8 -> 9 -> 6 -> 19 -> 10 -> -9 -> 23 -> 8 -> 5 -> 12 ->
+<br/>
 Minimum value: -78
+<br/>
 The path is as follows: 16 -> -9 -> -22 -> -20 -> -15 -> 8 -> 0 -> -17 -> 12 -> 7 -> -19 -> -7 -> 1 -> -25 -> 12 ->
-
+<br/>
 Case 02-
 (0,0) to (4,1)
+<br/>
 Output 02:
+<br/>
 Initial value of x is:0
+<br/>
 Initial value of y is:0
+<br/>
 Final value of x is:4
+<br/>
 Final value of y is:1
+<br/>
 Maximum value: 124
+<br/>
 The path is as follows: 16 -> -9 -> 19 -> 7 -> 12 -> 19 -> 0 -> 8 -> 9 -> 6 -> 19 -> 10 -> -9 -> 23 -> 8 -> 5 -> 12 -> -25 -> 1 -> -7 ->
+<br/>
 Minimum value: -82
+<br/>
 The path is as follows: 16 -> -9 -> -22 -> -20 -> -15 -> 8 -> 0 -> -17 -> 8 -> -25 -> 1 -> -7 ->
